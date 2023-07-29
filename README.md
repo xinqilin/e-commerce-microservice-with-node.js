@@ -14,13 +14,13 @@ reference: <br>
 mkdir auth-service product-service order-service
 cd auth-service/
 npm init -y
-npm i express jsonwebtoken amqplib nodemon
+npm i express jsonwebtoken amqplib nodemon mongoose
 
 
 cd ../product-service/
-npm i express jsonwebtoken amqplib nodemon
+npm i express jsonwebtoken amqplib nodemon mongoose
 
 cd ../order-service/
-npm i express jsonwebtoken amqplib nodemon
+npm i express jsonwebtoken amqplib nodemon mongoose
 
 ```
